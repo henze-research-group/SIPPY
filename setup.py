@@ -12,7 +12,7 @@ setuptools.setup(
 	long_description_content_type='text/markdown',
 	url="https://github.com/CPCLAB-UNIPI/sippy",
 	packages=setuptools.find_packages(),
-	python_requires=">=3.5,<=3.7",
+	python_requires=">=3.7,<4.0",
 	install_requires=(
 		"numpy>=1.20.1",
 		"scipy>=1.6.1",
