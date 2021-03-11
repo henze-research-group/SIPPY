@@ -14,11 +14,11 @@ setuptools.setup(
 	packages=setuptools.find_packages(),
 	python_requires=">=3.5,<=3.7",
 	install_requires=(
-		"numpy",
-		"scipy",
-		"control",
-		"slycot",
-		"future"),
+		"numpy>=1.20.1",
+		"scipy>=1.6.1",
+		"control>=0.8.4",
+		"slycot>=0.4.0.0",
+		"future>=0.18.2"),
 	classifiers=(
 		"Development Status :: 4 - Beta",
 		"Intended Audience :: Education",
